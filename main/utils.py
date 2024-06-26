@@ -101,7 +101,7 @@ def run(playwright: Playwright) -> None:
                 'calls_average': round((in_call.get('calls_average', 0) + out_call.get('calls_average', 0)) / 2, 1),
                 'missed_calls_count': in_call.get('missed_calls_count', 0) + out_call.get('missed_calls_count', 0),
                 'call_in': in_call.get('all_calls_count', 0),
-                'call_out': in_call.get('all_calls_count', 0),
+                'call_out': out_call.get('all_calls_count', 0),
                 'calls_second': in_call.get('calls_second', 0) + out_call.get('calls_second', 0),
                 'all_calls_count': in_call.get('all_calls_count', 0) + out_call.get('all_calls_count', 0)
             })
