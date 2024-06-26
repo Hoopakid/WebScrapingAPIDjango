@@ -4,8 +4,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-sarkor_username = os.environ.get('SARKOR_USERNAME')
-sarkor_password = os.environ.get('SARKOR_PASSWORD')
+sarkor_username = os.environ.get('sarkor_username')
+sarkor_password = os.environ.get('sarkor_password')
 
 
 def run(playwright: Playwright) -> None:
