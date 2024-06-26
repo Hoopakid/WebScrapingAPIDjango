@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Black">
+    <option name="sdkName" value="Python 3.10 (WebScrapingAPIDjango)" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="e4d2272a-bc67-4967-b6cc-9093081197ae" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (WebScrapingAPIDjango)" project-jdk-type="Python SDK" />
+</project>
