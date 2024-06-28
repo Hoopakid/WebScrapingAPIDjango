@@ -20,7 +20,7 @@ def run(playwright: Playwright) -> None:
     page.get_by_role("button", name="Войти").click()
     page.get_by_role("navigation").locator("div").filter(has_text="История").click()
     page.get_by_role("button", name="Текущая неделя").click()
-    page.get_by_text("Вчера", exact=True).click()
+    page.get_by_text("Сегодня", exact=True).click()
 
     def convert_to_seconds(value: str) -> int:
         try:
